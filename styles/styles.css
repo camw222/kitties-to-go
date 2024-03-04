@@ -7,12 +7,14 @@ header {
     box-sizing: border-box;
     height: 8rem;
     background-color:rgb(54, 154, 187);
+    background-image: url("images/banner-image.jpg");
     color: white;
     text-transform: uppercase;
 }
 nav {
-    display: flex;
+    display: block;
     box-sizing: border-box;
+    align-content: space-between;
     background-color: rgb(202, 201, 201);
     color: rgb(57, 57, 57);
 }
@@ -20,6 +22,29 @@ h2 {
     text-transform: capitalize;
 }
 aside {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    padding: 1rem;
     float: right;
-    width: 30%;
+    width: 25%;
+}
+.main-body {
+    display: block;
+    padding-bottom: 10%;
+
+}
+footer {
+    display: block;
+    padding-top: 4rem;
+    background-color: black;
+    background-size:cover;
+    height: 10rem;
+    color: white;
+}
+.footer-nav {
+    background-color: black;
+}
+.footer-link {
+    color: white;
 }
