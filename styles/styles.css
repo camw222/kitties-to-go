@@ -1,0 +1,25 @@
+* {
+    font-family: sans-serif;
+}
+header {
+    display: block;
+    position: static;
+    box-sizing: border-box;
+    height: 8rem;
+    background-color:rgb(54, 154, 187);
+    color: white;
+    text-transform: uppercase;
+}
+nav {
+    display: flex;
+    box-sizing: border-box;
+    background-color: rgb(202, 201, 201);
+    color: rgb(57, 57, 57);
+}
+h2 {
+    text-transform: capitalize;
+}
+aside {
+    float: right;
+    width: 30%;
+}
