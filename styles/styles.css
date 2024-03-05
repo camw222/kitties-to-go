@@ -1,49 +1,62 @@
 * {
-    font-family: sans-serif;
+    font-family: Arimo, sans-serif;
 }
 header {
     display: block;
-    position: static;
     box-sizing: border-box;
-    height: 8rem;
-    background-color:rgb(54, 154, 187);
-    background-image: url("images/banner-image.jpg");
+    padding: 1rem;
+    background-image: url("https://github.com/UWFront-End-Cert/starters/blob/master/lesson04-mock2-banner-image.jpg?raw=true");
+    background-size: cover;
+    background-repeat: no-repeat;
     color: white;
     text-transform: uppercase;
 }
 nav {
     display: block;
     box-sizing: border-box;
-    align-content: space-between;
+    padding: 1rem;
     background-color: rgb(202, 201, 201);
-    color: rgb(57, 57, 57);
+    border: solid rgb(54, 154, 187) 0.5rem;
+}
+a {
+    color:black
 }
 h2 {
     text-transform: capitalize;
 }
 aside {
-    display: flex;
-    flex-flow: column nowrap;
-    justify-content: center;
-    padding: 1rem;
     float: right;
+    padding: 2rem;
     width: 25%;
+}
+.blue-link {
+    color: rgb(54, 154, 187);
 }
 .main-body {
     display: block;
-    padding-bottom: 10%;
-
+    padding-bottom: 8%;
+    padding-top: 3%;
+}
+h4 {
+    color: rgb(54, 154, 187);
+}
+blockquote {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    font-size: x-large;
+    color: rgb(54, 154, 187);
 }
 footer {
-    display: block;
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
     padding-top: 4rem;
-    background-color: black;
-    background-size:cover;
-    height: 10rem;
+    background-image: url("https://github.com/UWFront-End-Cert/starters/blob/master/lesson04-mock4-footer-image.jpg?raw=true");
     color: white;
 }
 .footer-nav {
-    background-color: black;
+    background-color: transparent;
+    border: none;
 }
 .footer-link {
     color: white;
