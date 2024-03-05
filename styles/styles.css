@@ -71,3 +71,6 @@ footer {
     padding-top:3rem;
     padding-bottom: 3rem;
 }
+.cat {
+    width: min-content;
+}
