@@ -64,12 +64,10 @@ footer {
 .profiles {
     display: flex;
     flex-flow: row wrap;
+    box-sizing: border-box;
     justify-content: space-around;
     align-items: center;
     margin: auto;
-    padding: 1rem;
-}
-.cat {
-    height: 25%;
-    width: 25%;
+    padding-top:3rem;
+    padding-bottom: 3rem;
 }
