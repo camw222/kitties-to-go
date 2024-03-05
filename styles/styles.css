@@ -61,3 +61,16 @@ footer {
 .footer-link {
     color: white;
 }
+.profiles {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-items: center;
+    margin: auto;
+    padding: 1rem;
+    width: auto;
+}
+.cat {
+    height: 25%;
+    width: 25%;
+}
