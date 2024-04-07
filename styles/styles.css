@@ -5,8 +5,11 @@ header {
     display: block;
     box-sizing: border-box;
     padding: 1rem;
+    background-color: black;
     background-image: url("https://github.com/UWFront-End-Cert/starters/blob/master/lesson04-mock2-banner-image.jpg?raw=true");
-    background-size: cover;
+    width: max-width;
+    height: auto;
+    background-position: center;
     background-repeat: no-repeat;
     color: white;
     text-transform: uppercase;
@@ -58,6 +61,10 @@ footer {
     align-items: center;
     padding-top: 4rem;
     background-image: url("https://github.com/UWFront-End-Cert/starters/blob/master/lesson04-mock4-footer-image.jpg?raw=true");
+    width: max-width;
+    height: auto;
+    background-repeat: no-repeat;
+    background-position: top;
     color: white;
 }
 .footer-nav {
@@ -76,6 +83,7 @@ footer {
     margin: auto;
     padding-top:3rem;
     padding-bottom: 3rem;
+    background: linear-gradient(to left,lightslategray, lightblue);
 }
 .cat {
     width: min-content;
