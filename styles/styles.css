@@ -5,7 +5,7 @@ header {
     display: block;
     box-sizing: border-box;
     padding: 1rem;
-    background-color: black;
+    background-color: rgb(54, 154, 187);
     background-image: url("https://github.com/UWFront-End-Cert/starters/blob/master/lesson04-mock2-banner-image.jpg?raw=true");
     width: max-width;
     height: auto;
@@ -60,6 +60,7 @@ footer {
     flex-flow: column nowrap;
     align-items: center;
     padding-top: 4rem;
+    background-color: rgb(54, 154, 187);
     background-image: url("https://github.com/UWFront-End-Cert/starters/blob/master/lesson04-mock4-footer-image.jpg?raw=true");
     width: max-width;
     height: auto;
