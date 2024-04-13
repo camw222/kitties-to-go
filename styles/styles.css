@@ -7,9 +7,9 @@ header {
     padding: 1rem;
     background-color: rgb(54, 154, 187);
     background-image: url("https://github.com/UWFront-End-Cert/starters/blob/master/lesson04-mock2-banner-image.jpg?raw=true");
-    width: max-width;
+    width: 100%;
     height: auto;
-    background-position: center;
+    background-position: center center;
     background-repeat: no-repeat;
     color: white;
     text-transform: uppercase;
@@ -32,7 +32,8 @@ a:focus {
 h2 {
     text-transform: capitalize;
 }
-aside {
+.sidebar {
+    display: block;
     float: right;
     padding: 2rem;
     width: 25%;
@@ -62,7 +63,7 @@ footer {
     padding-top: 4rem;
     background-color: rgb(54, 154, 187);
     background-image: url("https://github.com/UWFront-End-Cert/starters/blob/master/lesson04-mock4-footer-image.jpg?raw=true");
-    width: max-width;
+    width: 100%;
     height: auto;
     background-repeat: no-repeat;
     background-position: top;
@@ -88,4 +89,10 @@ footer {
 }
 .cat {
     width: min-content;
+}
+
+@media screen and (max-width:500px) {
+    .sidebar {
+        display: none;
+    }
 }
