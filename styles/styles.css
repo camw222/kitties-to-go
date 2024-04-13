@@ -91,8 +91,19 @@ footer {
     width: min-content;
 }
 
-@media screen and (max-width:500px) {
+@media only screen and (orientation: portrait) and (max-width:500px) {
     .sidebar {
         display: none;
+    }
+    .main-body {
+        width: 100%;
+    }
+}
+@media only screen and (orientation: landscape) and (max-width:1024px) {
+    .sidebar {
+        display: none;
+    }
+    .main-body {
+        width: 100%;
     }
 }
